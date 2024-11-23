@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organix</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-page-container">
+      <div class="organix-container">
+        <!-- SIDE BAR CONTAINER -->
+        <div class="sidebar-container">
+          <div class="logo-container">
+            <img src="./images/organix-logo.svg" alt="Organix Logo" />
+          </div>
+
+          <div class="search-container">
+            <form class="form">
+              <div class="search-icon-container">
+                <i class="bx bx-search"></i>
+              </div>
+              <input type="text" placeholder="Search" name="search" />
+            </form>
+          </div>
+
+          <!-- First Side Bar -->
+          <div class="first-sidebar-container sidebar">
+            <div class="main-menu-container">
+              <h1>Main Menu</h1>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="bx bx-home-alt-2"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Home</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="fa-regular fa-folder"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Projects</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="bx bx-calendar-alt"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Calendar</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Team Member</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Analytics</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="bx bx-wallet"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Wallet</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container task-container">
+              <div class="icon-container task-icon">
+                <i class="fa-solid fa-walkie-talkie"></i>
+              </div>
+              <div class="text-item-container task-text">
+                <h1>Tasks</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Mail</h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Side Bar -->
+          <div class="second-sidebar-container sidebar">
+            <div class="main-menu-container">
+              <h1>Label</h1>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container light-blue-container">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Marketing</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container blue-container">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Development</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container">
+              <div class="icon-container orange-container">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>Design</h1>
+              </div>
+            </div>
+
+            <div class="icon-item-container purple-container">
+              <div class="icon-container">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="text-item-container">
+                <h1>3D Modeling</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT CONTAINER -->
+        <div class="content-container">
+          <!-- TOP CONTENT CONTAINER -->
+          <div class="top-content-container">
+            <div class="left-top-container">
+              <h1>Tasks</h1>
+            </div>
+
+            <div class="right-top-container">
+              <div class="add-task-container">
+                <div class="add-icon-container">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="add-task-text">
+                  <h3>Add Tasks</h3>
+                </div>
+              </div>
+
+              <div class="notification-container">
+                <i class="bx bx-bell"></i>
+              </div>
+
+              <div class="profile-container">
+                <img src="./images/profile-pic.jpg" alt="Profile-picture" />
+              </div>
+            </div>
+          </div>
+
+          <!-- BOTTOM CONTENT CONTAINER -->
+          <div class="bottom-content-container">
+            <div class="options-container">
+              <div class="left-options-container">
+                <div class="icon-option-container board-special-container">
+                  <div class="icon-board-container board-icon">
+                    <i class="fa-solid fa-pause"></i>
+                  </div>
+                  <div class="option-text-container board-text">
+                    <h3>Board</h3>
+                  </div>
+                </div>
+
+                <div class="icon-option-container">
+                  <div class="icon-board-container">
+                    <i class="fa-solid fa-table-columns"></i>
+                  </div>
+                  <div class="option-text-container">
+                    <h3>Table</h3>
+                  </div>
+                </div>
+
+                <div class="icon-option-container">
+                  <div class="icon-board-container">
+                    <i class="bx bx-calendar"></i>
+                  </div>
+                  <div class="option-text-container">
+                    <h3>Calendar</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-options-container">
+                <div class="icon-option-container">
+                  <div class="icon-board-container">
+                    <i class="bx bx-filter-alt"></i>
+                  </div>
+                  <div class="option-text-container">
+                    <h3>Filter</h3>
+                  </div>
+                </div>
+
+                <div class="icon-option-container">
+                  <div class="icon-board-container">
+                    <i class="bx bx-sort"></i>
+                  </div>
+                  <div class="option-text-container">
+                    <h3>Sort</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards-main-container">
+              <!-- First Container -->
+              <div class="card-main-container">
+                <div class="heading-container">
+                  <div class="heading-text-container">
+                    <h1>To-Do</h1>
+                  </div>
+                  <div class="heading-icon-container">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container">
+                      <h3>Design</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="globe-image-container">
+                    <img
+                      src="./images/card-image.jpg"
+                      alt="A globe in a hand"
+                    />
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>Customer Journey Mapping</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Kidszone</p>
+                    </div>
+                  </div>
+
+                  <div class="first-card">
+                    <div class="temporary-container">
+                      <div class="medium-text-icon-container">
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>Medium</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>25 October</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="location-icon-container">
+                      <i class="fa-solid fa-location-arrow"></i>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-1.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>16</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>21</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container">
+                      <h3>Design</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>UI Component Modification</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Bookly</p>
+                    </div>
+                  </div>
+
+                  <div class="second-section-container">
+                    <div class="paragraph-container">
+                      <p>Micro-interactions, Loading and Progress.</p>
+                    </div>
+                    <div class="temporary-container">
+                      <div class="medium-text-icon-container">
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>Medium</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>25 October</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-4.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>03</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>32</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Container -->
+              <div class="card-main-container">
+                <div class="heading-container second-card-heading-container">
+                  <div class="heading-text-container">
+                    <h1>In Progress</h1>
+                  </div>
+                  <div class="heading-icon-container">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container devlopment-container">
+                      <h3>Development</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>Database Customization</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Uber</p>
+                    </div>
+                  </div>
+
+                  <div class="second-section-container">
+                    <div class="paragraph-container">
+                      <p>
+                        Customizing the database for Uber's internal system,
+                        focusing on micro-interactions.
+                      </p>
+                    </div>
+                    <div class="temporary-container">
+                      <div class="medium-text-icon-container">
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>Medium</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>21 October</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>10</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>106</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container modelling-container">
+                      <h3>3D Modeling</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>Fix Interior Planning</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Hotel Nice</p>
+                    </div>
+                  </div>
+
+                  <div class="second-section-container">
+                    <div class="paragraph-container">
+                      <p>
+                        Addressing layout and functional issues in the 3D
+                        modeling of interior spaces.
+                      </p>
+                    </div>
+                    <div class="temporary-container">
+                      <div class="medium-text-icon-container low-container">
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>Low</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>13 October</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-4.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>13</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>09</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Container -->
+              <div class="card-main-container">
+                <div class="heading-container third-card-heading-container">
+                  <div class="heading-text-container">
+                    <h1>To-Do</h1>
+                  </div>
+                  <div class="heading-icon-container">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container">
+                      <h3>Design</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>Redesign WordPress Website</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Design Lab</p>
+                    </div>
+                  </div>
+
+                  <div class="second-section-container">
+                    <div class="paragraph-container">
+                      <p>
+                        Redesigning the website for Design Lab to enhance
+                        usability and visual appeal.
+                      </p>
+                    </div>
+                    <div class="temporary-container">
+                      <div
+                        class="medium-text-icon-container high-icon-container"
+                      >
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>High</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>17 October</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-4.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>02</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>29</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-container">
+                  <div class="design-icon-main-container">
+                    <div class="design-text-container marketing-container">
+                      <h3>Marketing</h3>
+                    </div>
+                    <div class="design-icon-container">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                  </div>
+
+                  <div class="first-section-container">
+                    <div class="sub-heading-container">
+                      <h3>Facebook Ads Campaign</h3>
+                    </div>
+                    <div class="smaller-text">
+                      <p>Plantify</p>
+                    </div>
+                  </div>
+
+                  <div class="second-section-container">
+                    <div class="temporary-container">
+                      <div class="medium-text-icon-container">
+                        <div class="medium-icon-container">
+                          <i class="fa-regular fa-flag"></i>
+                        </div>
+                        <div class="medium-text-container">
+                          <p>Medium</p>
+                        </div>
+                      </div>
+
+                      <div class="date-text-icon-container date-box">
+                        <div class="date-icon-container">
+                          <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="date-text-container">
+                          <p>20 October</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="last-section-container">
+                    <div class="profile-pictures-container">
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-2.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+
+                      <div class="profile-pic-container">
+                        <img
+                          src="./images/profile-pic-3.jpg"
+                          alt="Profile picture"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="link-commment-container">
+                      <div class="link-number-container">
+                        <div class="link-icon-container">
+                          <i class="bx bx-link-alt"></i>
+                        </div>
+                        <div class="number-container">
+                          <p>03</p>
+                        </div>
+                      </div>
+
+                      <div class="comment-container">
+                        <div class="comment-icon-container">
+                          <i class="bx bx-message-rounded-detail"></i>
+                        </div>
+                        <div class="comment-number-container">
+                          <p>17</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
